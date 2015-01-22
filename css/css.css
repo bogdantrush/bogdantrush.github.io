@@ -1,0 +1,33 @@
+body {
+
+    
+	
+}
+a {
+ color:#537CBC; text-decoration:none;
+ }
+ 
+ 
+h1 {
+	
+    padding: 15px;
+    font-size: 50px;
+    line-height: 50px;
+    text-shadow: 2px 2px 0 #ccc;
+	background: #f5f5f5;
+	border: 10px solid #ccc;
+	
+}
+
+pre {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+em {
+    color: #618AD2;
+}
