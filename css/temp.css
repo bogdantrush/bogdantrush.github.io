@@ -7,7 +7,9 @@ html {
 a {
 	color:#537CBC; text-decoration:none; 
 }
- 
+p a:hover {
+	background: red;
+ }
 body {
 	position:static;
 	left:10%;
@@ -22,11 +24,17 @@ body {
 
 .upper {
     position:fixed;
-    left:0%;
+    right:0%;
 	top:0%;
 	height:100%;
 	width:7%;
+	
 	background: url(../images/upp.png) repeat-y;
+	baopacity:0.3;
+}
+.upper:hover{
+	opacity: 0.3;
+	background: orange url(../images/upp.png) ;
 }
 
 .head{	
@@ -37,12 +45,16 @@ body {
 
 .photo-logo {
 	position:absolute;
-    right:0%;
+    left:0%;
 	top:0%;
 	width:50px;
 	height:180px;
 	background: url(../images/photo-logo.png) repeat-y;
 	background-size: 100% 100%;
+	opacity: 0.7;
+}
+.photo-logo:hover{
+	opacity: 1;
 }
 
 .m{
@@ -53,6 +65,3 @@ body {
 	width:10%;
 }
 
-.p:hover{
-background:#DFF0D8;
-}
