@@ -7,7 +7,7 @@
 }
 html {
 	z-index:1;
-	background: #FFFFFF url(../images/d.png);
+	
 	padding-top: 0px;	
 	padding-bottom: 50px;
 }
@@ -118,16 +118,32 @@ margin-top:  auto;
 
 .scroll-down1 {
 	height:40%;
+	-webkit-transition: all ease  700ms;
+	-moz-transition: all ease  700ms;
+	-o-transition: all ease 700ms;
+	-ms-transition: all ease 700ms;
+	transition: all ease 700ms;
 }
 
 .scroll-down2 {
 	height:20%;
-	opacity:1;
+	
+	
+	-webkit-transition: all ease  700ms;
+	-moz-transition: all ease  700ms;
+	-o-transition: all ease 700ms;
+	-ms-transition: all ease 700ms;
+	transition: all ease 700ms;
 	
 }
 .scroll-down3 {
 	height:5%;
 	box-shadow: 3px -15px 49px -22px #000000;
+	-webkit-transition: all ease  700ms;
+	-moz-transition: all ease  700ms;
+	-o-transition: all ease 700ms;
+	-ms-transition: all ease 700ms;
+	transition: all ease 700ms;
 }
 	
 
@@ -135,23 +151,38 @@ header{
 	box-shadow: 3px -15px 49px -22px #000000 inset;
 	z-index:6;
 	position: fixed;
-	padding:5px;
 	height:60%;
 	width: 100%;
 	left:0%;
 	top:0%;
 	text-align: center;
-	font-size: 50px;
 	background: #FFFFFF url(../images/skulls.png);
-	opacity:0.6;
-	-webkit-transition: all ease 0.2s;
-	-moz-transition: all ease 0.5s;
-	-o-transition: all ease 0.5s;
-	-ms-transition: all ease 0.5s;
-	transition: all ease 0.2s;
+	
+	
+	-webkit-transition: all ease  700ms;
+	-moz-transition: all ease  700ms;
+	-o-transition: all ease 700ms;
+	-ms-transition: all ease 700ms;
+	transition: all ease 700ms;
 	
 }
 
 
 
+nav li {
+	display: inline;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1em;
+	color: black;
+	padding: 1px 2px;
+	
+		
+	text-shadow:
+		0px -1px 1px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
 
