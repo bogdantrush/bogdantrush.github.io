@@ -1,5 +1,13 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
 html {
-	background-image: url(../images/bg.png);
+	z-index:1;
+	background: #FFFFFF url(../images/skulls.png);
 	padding-top: 0px;	
 	padding-bottom: 50px;
 }
@@ -7,61 +15,133 @@ html {
 a {
 	color:#537CBC; text-decoration:none; 
 }
-p a:hover {
-	background: red;
- }
-body {
-	position:static;
-	left:10%;
-	width: 79%;
-	padding: 50px;
-	margin: 0 auto;
-	box-shadow: 10px 10px 10px rgba(0,0,0,.5);
-	background-color: #E1EDEB;
-	font-size:10px;
-	
+h1 a:hover {
+	color:orange;
 }
+ 
+body {
+	z-index:2;
+	position:absolute;
+	right:0%;
+	width: 100%;
+	background: white url(../images/d.png);
+	border-bottom: outset;
+}
+h2{
+	z-index:3;
+	position: relative;
+	font-size:20px;
+	padding-top:5%;
+	padding-left:10%;
+	padding-right:15%;
+	padding-bottom:10%;
+	border-bottom: outset;
+	border-top: outset;
+}
+
+#second {
+	background: orange;
+}
+
+#third{
+	background: white url(../images/skulls.png);
+}
+
 
 .upper {
+	z-index:5;
     position:fixed;
-    right:0%;
-	top:0%;
+    right:-10%;
+	bottom:0%;
 	height:100%;
-	width:7%;
+	width:5%;
+	opacity: 0;
+	background:  url(../images/upp.png) repeat-y;
 	
-	background: url(../images/upp.png) repeat-y;
-	baopacity:0.3;
+	-webkit-transition: all ease 1s;
+	-moz-transition: all ease 1s;
+	-o-transition: all ease 1s;
+	-ms-transition: all ease 1s;
+	transition: all ease 1s;
 }
 .upper:hover{
-	opacity: 0.3;
-	background: orange url(../images/upp.png) ;
+	right:0%;
+	opacity: 0.6;
+	background: white url(../images/upp.png) ;
+	width:6%;
 }
-
-.head{	
-	position:absolute;
-    left:0%;
-	top:0%;
+.vision{
+	opacity: 0.3;
+	right:0%;
 }
 
 .photo-logo {
+    z-index:5;
 	position:absolute;
-    left:0%;
-	top:0%;
+    left:10px;
+	top:5%;
 	width:50px;
-	height:180px;
+	height:160px;
 	background: url(../images/photo-logo.png) repeat-y;
 	background-size: 100% 100%;
-	opacity: 0.7;
+	opacity: 0.5;
+	-webkit-transition: all ease  700ms;
+	-moz-transition: all ease  700ms;
+	-o-transition: all ease 700ms;
+	-ms-transition: all ease 700ms;
+	transition: all ease 700ms;
 }
 .photo-logo:hover{
 	opacity: 1;
+	height:180px;
+	width:60px;
+	right:5px;
 }
 
-.m{
-	position:fixed;
-    right:10%;
+.head-bg{
+	z-index:5;
+	position: relative;
+	height:200px;
+	width: 100%;
+	left:0%;
 	top:0%;
-	height:10%;
-	width:10%;
+	background: white url(../images/d.png);
+	border-bottom: outset;
 }
+
+
+.scroll-down1 {
+	position: fixed;
+	top:0%;
+	height:15%;
+}
+
+.scroll-down2 {
+	height:5%;
+}
+
+header{
+	z-index:6;
+	position: fixed;
+	padding:5px;
+	height:25%;
+	width: 100%;
+	left:0%;
+	top:0%;
+	text-align: center;
+	font-size: 50px;
+	background: black url(../images/d.png);
+	color: white;
+	border-bottom: outset;
+	
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+	
+}
+
+
+
 
