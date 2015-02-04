@@ -7,7 +7,7 @@
 }
 html {
 	z-index:1;
-	background: #FFFFFF url(../images/skulls.png);
+	background: #FFFFFF url(../images/d.png);
 	padding-top: 0px;	
 	padding-bottom: 50px;
 }
@@ -20,13 +20,13 @@ h1 a:hover {
 }
  
 body {
-	top:0%;
+	top:70%;
 	font-family: 'Gabriola';
 	z-index:2;
 	position:absolute;
 	right:0%;
 	width: 100%;
-	background: white url(../images/d.png);
+	
 	border-bottom: outset;
 	
 }
@@ -40,13 +40,13 @@ h2{
 }
 #first{
 
-margin-top: 500px;
+margin-top:  auto;
 }
 #second {
 	background: orange;
 }
 #third{
-	background: white url(../images/skulls.png);
+	background: white url(../images/d.png);
 }
 
 
@@ -101,29 +101,35 @@ margin-top: 500px;
 	width:180px;
 	right:5px;
 }
-/*
-.head-bg{
-	z-index:5;
-	position: relative;
-	height:200px;
+
+/*.head-bg{
+	z-index:3;
+	position: absolute;
+	height:60%;
 	width: 100%;
 	left:0%;
 	top:0%;
-	background: white url(../images/d.png);
+	background: white url(../images/Camera.png) no-repeat;
+	background-size: 100px 200px;
+	
 	
 }
 */
 
 .scroll-down1 {
-	height:25%;
-	opacity:0.6;
+	height:40%;
 }
 
 .scroll-down2 {
-	height:5%;
+	height:20%;
 	opacity:1;
+	
+}
+.scroll-down3 {
+	height:5%;
 	box-shadow: 3px -15px 49px -22px #000000;
 }
+	
 
 header{
 	box-shadow: 3px -15px 49px -22px #000000 inset;
@@ -137,7 +143,7 @@ header{
 	text-align: center;
 	font-size: 50px;
 	background: #FFFFFF url(../images/skulls.png);
-	opacity:0.3;
+	opacity:0.6;
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.5s;
 	-o-transition: all ease 0.5s;

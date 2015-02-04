@@ -43,18 +43,27 @@
 		$('header').removeClass("scroll-down2");
 		}
 		});
+		
+		$(window).scroll(function() {
+		if ($(this).scrollTop() > 200){
+		$('header').addClass("scroll-down3");
+		}
+		else{
+		$('header').removeClass("scroll-down3");
+		}
+		});
 		</script>
 		
 	
 	<body>
+		<div class="head-bg">
 		
+		</div>
 		<a title="UP!" href="#" class="upper"> </a>
 		<header>
 			
 		</header>
-		<div class="head-bg">
 		
-		</div>
 		
 		<a href="https://500px.com/bogdantrush" class="photo-logo"></a>
 		
