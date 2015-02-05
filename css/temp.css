@@ -26,21 +26,18 @@ body {
 	position:absolute;
 	right:0%;
 	width: 100%;
-	
 	border-bottom: outset;
-	
 }
 h2{
 	z-index:3;
 	position: relative;
 	font-size:20px;
-	padding:5%;
+	padding:50px;
 	border-bottom: outset;
 	
 }
 #first{
 
-margin-top:  auto;
 }
 #second {
 	background: orange;
@@ -68,15 +65,12 @@ margin-top:  auto;
 }
 .upper:hover{
 	right:0%;
-	
 	background: white url(../images/upp.png) ;
 	width:6%;
-	
 }
 .vision{
 	opacity:0.5;
 	right:0%;
-	
 }
 
 .photo-logo {
@@ -102,21 +96,8 @@ margin-top:  auto;
 	right:5px;
 }
 
-/*.head-bg{
-	z-index:3;
-	position: absolute;
-	height:60%;
-	width: 100%;
-	left:0%;
-	top:0%;
-	background: white url(../images/Camera.png) no-repeat;
-	background-size: 100px 200px;
-}
-*/
-
 .scroll-down1 {
 	height:40%;
-	
 }
 .scroll-down100 {
 	height:20%;
