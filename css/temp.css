@@ -51,7 +51,7 @@ h2{
     position:fixed;
     right:-10%;
 	bottom:0%;
-	height:95%;
+	height:98%;
 	width:5%;
 	opacity: 0;
 	background:  url(../images/upp.png) repeat-y;
@@ -112,7 +112,7 @@ header{
 	left:0%;
 	top:0%;
 	text-align: center;
-	background:  url(../images/skulls.png);
+	background: black url(../images/skulls.png);
 	
 	-webkit-transition: height ease-out 100ms;
 	-moz-transition: height  ease-out 100ms;
@@ -132,8 +132,9 @@ nav a {
 	display: inline-block;
 	text-decoration: none;
 	font-size: 1em;
-	color: black;
+	color: white;
 	padding: 1px 2px;
+	position: center;
 	
 	-webkit-transition: all ease-out 100ms;
 	-moz-transition: all  ease-out 100ms;
