@@ -128,7 +128,7 @@ margin-top:  auto;
 
 
 header{
-	/*box-shadow: 3px -15px 49px -22px #000000 inset;*/
+
 	z-index:6;
 	position: fixed;
 	height:60%;
@@ -139,11 +139,11 @@ header{
 	background: #FFFFFF url(../images/skulls.png);
 	
 	
-	-webkit-transition: height ease-out 200ms;
+	-webkit-transition: height ease-out 100ms;
 	-moz-transition: height  ease-out 100ms;
 	-o-transition: height  ease-out 100ms;
 	-ms-transition: height ease-out 100ms;
-	transition: height ease-out 200ms;
+	transition: height ease-out 100ms;
 	/*
 	HEROVAYA ANIMATION S OPACITY I SHADOW
 	*/
