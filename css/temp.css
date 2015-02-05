@@ -111,31 +111,26 @@ margin-top:  auto;
 	top:0%;
 	background: white url(../images/Camera.png) no-repeat;
 	background-size: 100px 200px;
-	
-	
 }
 */
 
 .scroll-down1 {
 	height:40%;
+	
 }
-
-.scroll-down2 {
+.scroll-down100 {
 	height:20%;
 	
-	
+}
+.scroll-down200 {
+	height:40px;
+	box-shadow:none;
+}
 
-	
-}
-.scroll-down3 {
-	height:5%;
-	/*box-shadow: 3px -15px 49px -22px #000000;*/
-	
-}
-	
+
 
 header{
-	/*box-shadow: 3px -15px 49px -22px #000000 inset;*/
+	box-shadow: 3px -15px 49px -22px #000000 inset;
 	z-index:6;
 	position: fixed;
 	height:60%;
@@ -145,13 +140,22 @@ header{
 	text-align: center;
 	background: #FFFFFF url(../images/skulls.png);
 	
+	-webkit-transition: height ease-out 200ms;
+	-moz-transition: height  ease-out 100ms;
+	-o-transition: height  ease-out 100ms;
+	-ms-transition: height ease-out 100ms;
+	transition: height ease-out 200ms;
 	
-	-webkit-transition: all ease-out 100ms;
-	-moz-transition: all  ease-out 100ms;
-	-o-transition: all  ease-out 100ms;
-	-ms-transition: all ease-out 100ms;
-	transition: all ease-out 100ms;
 	
+	/*-webkit-transition: height ease-out 200ms;
+	-moz-transition: height  ease-out 100ms;
+	-o-transition: height  ease-out 100ms;
+	-ms-transition: height ease-out 100ms;
+	transition: height ease-out 200ms;
+	
+	HEROVAYA ANIMATION S OPACITY I SHADOW
+	*/
+		
 }
 
 

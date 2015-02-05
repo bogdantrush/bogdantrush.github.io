@@ -17,41 +17,23 @@
 	
 	<script>
 		$(window).scroll(function() {
-		if ($(this).scrollTop() > 300){
-		$('a.upper').addClass("vision");
-		}
-		else{
-		$('a.upper').removeClass("vision");
-		}
+			if ($(this).scrollTop() > 300){$('a.upper').addClass("vision");}
+			else{$('a.upper').removeClass("vision");}
+		
+		
+			if ($(this).scrollTop() > 1){$('header').addClass("scroll-down1");}
+			else{$('header').removeClass("scroll-down1");}
+		
+			if ($(this).scrollTop() > 100){$('header').addClass("scroll-down100");}
+			else{$('header').removeClass("scroll-down100");}
+		
+			
+			
+			if ($(this).scrollTop() > 200){$('header').addClass("scroll-down200");}
+			else{$('header').removeClass("scroll-down200");}
+			
 		});
 		
-	
-		$(window).scroll(function() {
-		if ($(this).scrollTop() > 1){
-		$('header').addClass("scroll-down1");
-		}
-		else{
-		$('header').removeClass("scroll-down1");
-		}
-		});
-		
-		$(window).scroll(function() {
-		if ($(this).scrollTop() > 100){
-		$('header').addClass("scroll-down2");
-		}
-		else{
-		$('header').removeClass("scroll-down2");
-		}
-		});
-		
-		$(window).scroll(function() {
-		if ($(this).scrollTop() > 200){
-		$('header').addClass("scroll-down3");
-		}
-		else{
-		$('header').removeClass("scroll-down3");
-		}
-		});
 		</script>
 		
 	
