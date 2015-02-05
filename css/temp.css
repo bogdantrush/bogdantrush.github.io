@@ -120,11 +120,6 @@ margin-top:  auto;
 }
 .scroll-down100 {
 	height:20%;
-	-webkit-transition: height ease-out 200ms;
-	-moz-transition: height  ease-out 100ms;
-	-o-transition: height  ease-out 100ms;
-	-ms-transition: height ease-out 100ms;
-	transition: height ease-out 200ms;
 }
 .scroll-down200 {
 	height:40px;
