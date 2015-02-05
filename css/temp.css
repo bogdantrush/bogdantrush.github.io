@@ -129,13 +129,13 @@ margin-top:  auto;
 }
 .scroll-down3 {
 	height:5%;
-	box-shadow: 3px -15px 49px -22px #000000;
+	/*box-shadow: 3px -15px 49px -22px #000000;*/
 	
 }
 	
 
 header{
-	box-shadow: 3px -15px 49px -22px #000000 inset;
+	/*box-shadow: 3px -15px 49px -22px #000000 inset;*/
 	z-index:6;
 	position: fixed;
 	height:60%;
