@@ -20,7 +20,7 @@ h2 a:hover {
 }
  
 body {
-	top:70%;
+	top:0%;
 	font-family: 'Gabriola';
 	z-index:2;
 	position:absolute;
@@ -37,7 +37,8 @@ h2{
 	
 }
 #first{
-
+background: url(../images/camera.png) 100% 100% no-repeat; /* Добавляем фон */
+    background-size: cover; /* Масштабируем фон */
 }
 #second {
 	background: orange;
@@ -114,11 +115,11 @@ header{
 	text-align: center;
 	background: black url(../images/skulls.png);
 	
-	-webkit-transition: height ease-out 100ms;
+	-webkit-transition: height ease-out 400ms;
 	-moz-transition: height  ease-out 100ms;
 	-o-transition: height  ease-out 100ms;
 	-ms-transition: height ease-out 100ms;
-	transition: height ease-out 100ms;
+	transition: height ease-out 400ms;
 	/*
 	HEROVAYA ANIMATION S OPACITY I SHADOW
 	*/
