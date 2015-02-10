@@ -37,8 +37,7 @@ h2{
 	
 }
 #first{
-background: url(../images/camera.png) 100% 100% no-repeat; /* Добавляем фон */
-    background-size: cover; /* Масштабируем фон */
+	
 }
 #second {
 	background: orange;
@@ -76,7 +75,7 @@ background: url(../images/camera.png) 100% 100% no-repeat; /* Добавляем
 .photo-logo {
     z-index:5;
 	position:absolute;
-    left:-9px;
+    left:-8px;
 	bottom:4px;
 	height:50px;
 	width:160px;
@@ -113,13 +112,13 @@ header{
 	left:0%;
 	top:0%;
 	text-align: center;
-	background:  url(../images/skulls.png);
+	background: black url(../images/skulls.png);
 	
-	-webkit-transition: height ease-out 400ms;
+	-webkit-transition: height ease-out 200ms;
 	-moz-transition: height  ease-out 100ms;
 	-o-transition: height  ease-out 100ms;
 	-ms-transition: height ease-out 100ms;
-	transition: height ease-out 400ms;
+	transition: height ease-out 200ms;
 	/*
 	HEROVAYA ANIMATION S OPACITY I SHADOW
 	*/
