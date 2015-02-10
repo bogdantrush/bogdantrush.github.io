@@ -26,26 +26,20 @@ a{text-decoration:none;}
 	position: absolute;
 }
 
-.bikes_container a img:hover{-webkit-filter: invert(100%);
-	-webkit-transform: rotate(-5deg);
-     -moz-transform: rotate(-5deg);
-       -o-transform: rotate(-5deg);
-      -ms-transform: rotate(-5deg);
-          transform: rotate(-5deg);
-		  
-		  -webkit-transition: all 0.2s ease;
-     -moz-transition: all 0.2s ease;
-       -o-transition: all 0.2s ease;
-      -ms-transition: all 0.2s ease;
-          transition: all 0.2s ease;
-}
+
 .bikes_container a {
+-webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+       -o-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+          transition: all 0.3s ease; 
 	color: rgba(0,205,255, 0.5);
+
 }
 .bikes_container a:hover {
 	color: rgba(0,205,255, 1);
 	font:bold;
-		   
+	 -webkit-filter: invert(100%);
 }
 
 
