@@ -7,7 +7,7 @@ html {
 }
  
 body{
-	width:100%;
+	
 }
 
 a{
@@ -21,8 +21,10 @@ text-decoration:none;
 	width:80%;
 	min-width:400px;
 	max-width:1000px;
+	height:500px;
 	background:  url(../images/skulls.png);
 	box-sizing:border-box;
+	padding:0.5%;
 }
 
 .bikes_container img {
