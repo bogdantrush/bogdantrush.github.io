@@ -15,17 +15,14 @@ text-decoration:none;
 }
    
 .bikes_container{
+	display:block;
 	margin: auto; 
-	margin-left: 15%;
     position: relative;
 	width:80%;
 	min-width:400px;
 	max-width:1000px;
-	height:500px;
 	background:  url(../images/skulls.png);
 	box-sizing:border-box;
-	float:left;
-	
 }
 
 .bikes_container img {
