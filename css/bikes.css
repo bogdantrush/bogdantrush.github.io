@@ -1,110 +1,28 @@
-*{
-	-webkit-transition: all 0.4s ease-out;
-           -moz-transition: all 0.4s ease;
-			 -o-transition: all 0.4s ease;
-            -ms-transition: all 0.4s ease;
-                transition: all 0.4s ease; 
-				overflow:hidden;
-}
-html {
-	z-index:1;
-	background: url(../images/d.png);
-	padding-top: 0px;	
-	padding-bottom: 50px;
-}
- 
-body{
-	
-}
 
-a{
-	text-decoration:none;
-}
-   
-.bikes_container{
-	display:block;
-	margin: auto; 
-    position: relative;
-	width:80%;
-	min-width:400px;
-	max-width:960px;
-	height:500px;
-	background: black url(../images/d.png);
-	box-sizing:border-box;
-	padding:0.5%;
-}
-
-.bikes_container img {
-	position: absolute;
-}
-
-.bikes_container a {
-	color: rgba(0,205,255, 0.5);
-	
-	-webkit-transition: all 0.4s ease-out;
-           -moz-transition: all 0.4s ease;
-			 -o-transition: all 0.4s ease;
-            -ms-transition: all 0.4s ease;
-                transition: all 0.4s ease; 
-	
-	-webkit-filter: grayscale(90%);
-      -moz-filter: grayscale(0%);
-       -ms-filter: grayscale(90%);
-        -o-filter: grayscale(90%);
-		   
-                      filter: gray;   /* IE 6-9 */
-}
-
-.bikes_container a:hover {
-	color: rgba(0,205,255, 1);
-	font:bold;
-	font-size: 150%;
-	-webkit-filter: grayscale(0%);
-       -moz-filter: grayscale(0%);
-        -ms-filter: grayscale(0%);
-         -o-filter: grayscale(0%);
-                     filter: none;
-}
-
-#fork{
-	z-index: 50;
-	width:7.5%;
-	left:75%;
-	top:15%;
-}
-
-#frame{
-	z-index: 60;
-	width:55%;
-	left:20%;
-	top:15%;
-}
-
-#wheel{
-	z-index: 70;
-	width:37%;
-	left:55%;
-	top:2%;
-}
-
+/*--------------------------------------------------------------------------------*/
 .test_container  {
-	text-align: center;
 	display:block;
 	margin: auto; 
     position: relative;
-	width:80%;
+	width:90%;
 	min-width:400px;
-	max-width:960px;
 	background: url(../images/d.png);
 	box-sizing:border-box;
-	padding:0.5%;
+	
 }
 .test_container #step1{
 	display:block;
 	width:100%;
+	text-align: center;	
+	
+}
+.test_container #step1:hover{
+	box-shadow: 1px 1px 8px -1px #00d7d7;
+	background:green;
 }
 .target_step {
 	display:none;
+	font-family:Century Gothic;
 }
  div :target{
 	display:block;
@@ -118,30 +36,46 @@ a{
 	background: white ;
 	box-sizing:border-box;
 	padding:0.5%;
-	color:white;
-	z-index:5;
-	
+	color:red;
+	font-family:Century Gothic;
 }
 
-.test_container a:hover{
-	opacity:0.4;
+.target_step a:hover{
+	opacity:0.7;
+	
+	-webkit-transition: all 1s ease-in;
+           -moz-transition: all 0.4s ease-in;
+			 -o-transition: all 0.4s ease-in;
+            -ms-transition: all 0.4s ease-in;
+                transition: all 0.4s ease-in; 
 }
 
 .column1{
-	padding:1%;
-	width:48%;
+	margin-top:0.5%;
+	padding:2%;
+	width:46%;
 	float:left;
 	height:100%;
 	display:block;
     position: relative;
-	background:orange;
+	background:  url(../images/d.png);
 }
 .column2{
-	padding:1%;
-	width:48%;
+	margin-top:0.5%;
+	padding:2%;
+	width:46%;
 	float:right;
 	height:100%;
-	background:olive;
+	background:  url(../images/d.png);
+}
+.column1:hover, .column2:hover{
+	background: white url(../images/d.png);
+	 box-shadow: 1px 1px 8px -1px #00d7d7;
+	-webkit-transition: all 1s ease-in;
+           -moz-transition: all 0.4s ease-in;
+			 -o-transition: all 0.4s ease-in;
+            -ms-transition: all 0.4s ease-in;
+                transition: all 0.4s ease-in; 
 }
 
 .square_logo{
@@ -149,9 +83,12 @@ a{
 }
 
 .toplink{
+	padding-bottom:1%;
 	display:block;
 	position:relative;
 	width:100%;
+	background: green url(../images/d.png);
+	text-align: center;
 }
 
 .toplink span{
