@@ -6,7 +6,7 @@
     position: relative;
 	width:90%;
 	min-width:400px;
-	background: url(../images/d.png);
+	background: red url(../images/d.png);
 	box-sizing:border-box;
 	
 }
@@ -36,6 +36,7 @@
 	background: white ;
 	box-sizing:border-box;
 	padding:0.5%;
+	
 	color:red;
 	font-family:Century Gothic;
 }
@@ -89,14 +90,18 @@
 	width:100%;
 	background: green url(../images/d.png);
 	text-align: center;
+	
 }
 
 .toplink span{
 	display:block;
 	position:absolute;
-	left:0%;
+	left:-0%;
 	top:0%;
+	padding:2%;
+	padding-left:2.5%;
 	background-color:rgba(0, 0, 0, 0.3);
-	
+	box-shadow: -3px 5px 21px -3px #c0c0c0;
 }
+
 
