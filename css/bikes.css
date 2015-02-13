@@ -1,4 +1,11 @@
-
+*{
+	-webkit-transition: all 0.4s ease-out;
+           -moz-transition: all 0.4s ease;
+			 -o-transition: all 0.4s ease;
+            -ms-transition: all 0.4s ease;
+                transition: all 0.4s ease; 
+				overflow:hidden;
+}
 html {
 	z-index:1;
 	background: url(../images/d.png);
@@ -11,7 +18,7 @@ body{
 }
 
 a{
-text-decoration:none;
+	text-decoration:none;
 }
    
 .bikes_container{
@@ -20,9 +27,9 @@ text-decoration:none;
     position: relative;
 	width:80%;
 	min-width:400px;
-	max-width:1000px;
+	max-width:960px;
 	height:500px;
-	background:  url(../images/skulls.png);
+	background: black url(../images/d.png);
 	box-sizing:border-box;
 	padding:0.5%;
 }
@@ -41,10 +48,10 @@ text-decoration:none;
                 transition: all 0.4s ease; 
 	
 	-webkit-filter: grayscale(90%);
-      -moz-filter: grayscale(100%);
-       -ms-filter: grayscale(100%);
-        -o-filter: grayscale(100%);
-		   filter: grayscale(100%);
+      -moz-filter: grayscale(0%);
+       -ms-filter: grayscale(90%);
+        -o-filter: grayscale(90%);
+		   
                       filter: gray;   /* IE 6-9 */
 }
 
@@ -57,7 +64,6 @@ text-decoration:none;
         -ms-filter: grayscale(0%);
          -o-filter: grayscale(0%);
                      filter: none;
-			
 }
 
 #fork{
@@ -81,6 +87,79 @@ text-decoration:none;
 	top:2%;
 }
 
+.test_container  {
+	text-align: center;
+	display:block;
+	margin: auto; 
+    position: relative;
+	width:80%;
+	min-width:400px;
+	max-width:960px;
+	background: url(../images/d.png);
+	box-sizing:border-box;
+	padding:0.5%;
+}
+.test_container #step1{
+	display:block;
+	width:100%;
+}
+.target_step {
+	display:none;
+}
+ div :target{
+	display:block;
+}
 
+.test_container a{          /*block ssilki*/
+	display:block;
+	margin: auto; 
+	width:100%;
+	min-width:100px;
+	background: white ;
+	box-sizing:border-box;
+	padding:0.5%;
+	color:white;
+	z-index:5;
+	
+}
 
+.test_container a:hover{
+	opacity:0.4;
+}
+
+.column1{
+	padding:1%;
+	width:48%;
+	float:left;
+	height:100%;
+	display:block;
+    position: relative;
+	background:orange;
+}
+.column2{
+	padding:1%;
+	width:48%;
+	float:right;
+	height:100%;
+	background:olive;
+}
+
+.square_logo{
+	width:50%;
+}
+
+.toplink{
+	display:block;
+	position:relative;
+	width:100%;
+}
+
+.toplink span{
+	display:block;
+	position:absolute;
+	left:0%;
+	top:0%;
+	background-color:rgba(0, 0, 0, 0.3);
+	
+}
 
