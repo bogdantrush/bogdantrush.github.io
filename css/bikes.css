@@ -1,107 +1,107 @@
 
 /*--------------------------------------------------------------------------------*/
-.test_container  {
+.test_container  {				/*общий фоновый блок*/
 	display:block;
 	margin: auto; 
     position: relative;
 	width:90%;
 	min-width:400px;
-	background: red url(../images/d.png);
 	box-sizing:border-box;
-	
+	font-family:Century Gothic;
 }
-.test_container #step1{
+#step1 {							/*первая кнопка*/
 	display:block;
 	width:100%;
 	text-align: center;	
-	
+	padding:3px;
 }
-.test_container #step1:hover{
+#step1 a{
+	display:block; 
+	width:100%;
+	color:red;
+}
+#step1:hover{
 	box-shadow: 1px 1px 8px -1px #00d7d7;
-	background:green;
+	background:rgba(50, 170, 20,  0.3);
+	-webkit-transition: all 0.4s ease-in;
+           -moz-transition: all 0.4s ease-in;
+			 -o-transition: all 0.4s ease-in;
+            -ms-transition: all 0.4s ease-in;
+                 transition:all 0.4s ease-in;
 }
-.target_step {
+.target_step {					/*блок текущего шага прохождения В НЕМ КОЛОНКИ*/
 	display:none;
-	font-family:Century Gothic;
 }
  div :target{
 	display:block;
 }
-
-.test_container a{          /*block ssilki*/
-	display:block;
-	margin: auto; 
-	width:100%;
-	min-width:100px;
-	background: white ;
-	box-sizing:border-box;
-	padding:0.5%;
-	
-	color:red;
-	font-family:Century Gothic;
-}
-
 .target_step a:hover{
 	opacity:0.7;
-	
-	-webkit-transition: all 1s ease-in;
+		-webkit-transition: all 0.4s ease-in;
            -moz-transition: all 0.4s ease-in;
 			 -o-transition: all 0.4s ease-in;
             -ms-transition: all 0.4s ease-in;
-                transition: all 0.4s ease-in; 
+                 transition:all 0.4s ease-in;
 }
-
-.column1{
-	margin-top:0.5%;
-	padding:2%;
-	width:46%;
-	float:left;
-	height:100%;
-	display:block;
-    position: relative;
-	background:  url(../images/d.png);
-}
-.column2{
-	margin-top:0.5%;
-	padding:2%;
-	width:46%;
-	float:right;
-	height:100%;
-	background:  url(../images/d.png);
-}
-.column1:hover, .column2:hover{
-	background: white url(../images/d.png);
-	 box-shadow: 1px 1px 8px -1px #00d7d7;
-	-webkit-transition: all 1s ease-in;
-           -moz-transition: all 0.4s ease-in;
-			 -o-transition: all 0.4s ease-in;
-            -ms-transition: all 0.4s ease-in;
-                transition: all 0.4s ease-in; 
-}
-
-.square_logo{
-	width:50%;
-}
-
-.toplink{
-	padding-bottom:1%;
+.toplink{						/* верхний контейнер с сылкой картинкой и <span> заголовком*/
 	display:block;
 	position:relative;
 	width:100%;
-	background: green url(../images/d.png);
+	padding-bottom:1%;
+	background: green url(../images/dl.png);
 	text-align: center;
-	
 }
-
-.toplink span{
+.toplink a{          			/*  область ссылки в контейнере toplink ФОН КАРТИНКИ*/
+	display:block;
+	margin: auto; 
+	width:100%;
+	min-height:30px;
+	box-sizing:border-box;
+	background: white ;
+}
+.toplink span{					/* заголовок */
 	display:block;
 	position:absolute;
-	left:-0%;
+	left:0%;
 	top:0%;
-	padding:2%;
-	padding-left:2.5%;
+	padding:4px;
+	padding-left:6px;
+	padding-right:6px;
 	background-color:rgba(0, 0, 0, 0.3);
 	box-shadow: -3px 5px 21px -3px #c0c0c0;
+	font-family:Century Gothic;
+	text-decoration:none;
+	color:red;
+}
+.toplink img{					
+	width:50%;
+}
+.column1{
+	box-sizing:border-box;
+	margin-top:0.5%;
+	padding:2%;
+	width:calc(50% - 1px);
+	float:left;
+	height:100%;
+	background:  url(../images/dl.png);
+}
+.column2{
+	box-sizing:border-box;
+	margin-top:0.5%;
+	padding:2%;
+	width: calc(50% - 1px);
+	float:right;
+	height:100%;
+	background:  url(../images/dl.png);
+}
+.column1:hover, .column2:hover{
+	background: white url(../images/dopacity.png);
+	box-shadow: 1px 1px 8px -1px #00d7d7;
+		-webkit-transition: all 0.3s ease-in;
+           -moz-transition: all 0.3s ease-out;
+			 -o-transition: all 0.3s ease-out;
+            -ms-transition: all 0.3s ease-out;
+                 transition:all 0.3s ease-in;
 }
 
 
