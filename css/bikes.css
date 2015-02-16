@@ -15,6 +15,7 @@
 	text-align: center;	
 	padding:3px;
 }
+
 #step1 a{
 	display:block; 
 	width:100%;
@@ -29,7 +30,7 @@
             -ms-transition: all 0.4s ease-in;
                  transition:all 0.4s ease-in;
 }
-.target_step {					/*блок текущего шага прохождения В НЕМ КОЛОНКИ*/
+.target_step {					/*	блок текущего шага прохождения В НЕМ КОЛОНКИ	*/
 	display:none;
 }
  div :target{
@@ -43,15 +44,15 @@
             -ms-transition: all 0.4s ease-in;
                  transition:all 0.4s ease-in;
 }
-.toplink{						/* верхний контейнер с сылкой картинкой и <span> заголовком*/
-	display:block;
+.toplink{						/* верхний контейнер с сылкой, картинкой и <span> заголовком */
+	
 	position:relative;
 	width:100%;
 	padding-bottom:1%;
 	background: green url(../images/dl.png);
 	text-align: center;
 }
-.toplink a{          			/*  область ссылки в контейнере toplink ФОН КАРТИНКИ*/
+.toplink a{          			/*  область ссылки в контейнере toplink // ФОН КАРТИНКИ*/
 	display:block;
 	margin: auto; 
 	width:100%;
@@ -73,7 +74,8 @@
 	text-decoration:none;
 	color:red;
 }
-.toplink img{					
+.toplink img{	
+	
 	width:50%;
 }
 .column1{
@@ -103,5 +105,3 @@
             -ms-transition: all 0.3s ease-out;
                  transition:all 0.3s ease-in;
 }
-
-
